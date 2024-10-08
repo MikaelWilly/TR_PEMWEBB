@@ -14,7 +14,11 @@
 
 
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Dancing Script', cursive;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
 }
 
 /* ///////////..utility classes../////////// */
@@ -39,12 +43,14 @@ body {
 
 .btn-primary {
   color: #ffffff;
-  background: rgb(0, 128, 90);
+  background:#e75480;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 .btn-primary:hover {
-  background: #92868e;
-  transition: background 0.3s ease-in-out;
+  background: #f5a623;
+  transition: background 0.3s ease-in-out, transform 0.2s;
+  transform: scale(1.05);
 }
 
 /* ............/navbar/............ *
@@ -60,7 +66,7 @@ body {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff;
+  background: #fff1f1;
   color: #000;
   opacity: 0.85;
   height: 75px;
@@ -88,7 +94,7 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: rgb(0, 128, 90);
+  color: #e75480;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
@@ -109,8 +115,8 @@ body {
 .showcase-area {
   height: 50%;
   background: linear-gradient(
-      rgba(240, 240, 240, 0.144),
-      rgba(255, 255, 255, 0.336)
+      rgba(255, 255, 255, 0.5),
+      rgba(255, 255, 255, 0.8)
     ),
     url("https://i.pinimg.com/736x/9b/a8/c0/9ba8c0973c8e18e398130264a2e5769f.jpg");
   background-size: cover;
@@ -228,6 +234,11 @@ body {
 .img-container {
   margin: 0 1rem;
   position: relative;
+}
+
+.img-container:hover img{
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
 }
 
 .img-content {
@@ -408,7 +419,7 @@ body {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #ddd;
+  border-bottom: 2px solid #e75480;
   padding: 1rem 0;
   box-shadow: none;
   outline: none;
