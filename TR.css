@@ -14,11 +14,12 @@
 
 
 body {
-  font-family: 'Dancing Script', cursive;
-  background-color: #f9f9f9;
-  color: #333;
+  font-family: 'Poopins', sans-serif;
+  background-color: #f6e0d5;
+  color: #5a3e2f;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
 /* ///////////..utility classes../////////// */
@@ -43,12 +44,12 @@ body {
 
 .btn-primary {
   color: #ffffff;
-  background:#e75480;
+  background:#5a3e2f;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
 }
 
 .btn-primary:hover {
-  background: #f5a623;
+  background: #8f5f4b;
   transition: background 0.3s ease-in-out, transform 0.2s;
   transform: scale(1.05);
 }
@@ -66,8 +67,8 @@ body {
   box-shadow: 0px 5px 10px 0px #aaa;
   position: fixed;
   width: 100%;
-  background: #fff1f1;
-  color: #000;
+  background: #f6e0d5;
+  color: #5a2e2f;
   opacity: 0.85;
   height: 75px;
   z-index: 12;
@@ -94,7 +95,7 @@ body {
 
 .menu-items a {
   text-decoration: none;
-  color: #e75480;
+  color: #5a3e2f;
   font-weight: 500;
   transition: color 0.3s ease-in-out;
 }
@@ -113,14 +114,14 @@ body {
 /* ............//// Showcase styling ////......... */
 
 .showcase-area {
-  height: 50%;
+  height: 50vh;
   background: linear-gradient(
-      rgba(255, 255, 255, 0.5),
-      rgba(255, 255, 255, 0.8)
+      rgba(246, 224, 213, 0.8), 
+      rgba(165, 117, 97, 0.8) 
     ),
-    url("https://i.pinimg.com/736x/9b/a8/c0/9ba8c0973c8e18e398130264a2e5769f.jpg");
+    url("https://i.pinimg.com/564x/af/f3/78/aff37862f6e79b544bff5a7bfce4bcc3.jpg");
   background-size: cover;
-  background-position: unset;
+  background-position: center;
   background-repeat: no-repeat;
 }
 
@@ -148,6 +149,7 @@ body {
 .about-wrapper {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 #about h2 {
@@ -336,7 +338,7 @@ body {
 }
 
 .food-description .food-price {
-  color: #117964;
+  color: #5a3e2f;
   font-weight: 700;
 }
 
@@ -362,7 +364,7 @@ body {
 }
 
 .review-box .checked {
-  color: #ff9529;
+  color: #8f5f4b;
 }
 
 .review-box .review-text {
@@ -419,7 +421,7 @@ body {
   display: block;
   width: 100%;
   border: none;
-  border-bottom: 2px solid #e75480;
+  border-bottom: 2px solid #5a3e2f;
   padding: 1rem 0;
   box-shadow: none;
   outline: none;
