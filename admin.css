@@ -17,7 +17,7 @@ body {
         rgba(165, 117, 97, 0.8)
     );
     padding: 20px;
-    color: #000;
+    color: #333;
     height: 100%;
     transition: width 0.5s ease-in-out;
 }
@@ -47,13 +47,14 @@ body {
     background-color: #5a2e2f;
     border-radius: 5px;
     transition: background-color 0.3s;
+    border: 1px solid #452021;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .sidebar ul li a:hover {
-    background: linear-gradient(
-        rgba(246, 224, 213, 0.8), 
-        rgba(165, 117, 97, 0.8)
-    );
+    background-color: #b99997;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 1px solid #a88483;
 }
 
 .content {
@@ -64,8 +65,8 @@ body {
 }
 
 header {
-    background-color: #5a2e2f;
-    color: #fff;
+    background-color: #d7b8b6;
+    color: #333;
     padding: 10px;
     text-align: center;
     margin-bottom: 20px;
@@ -83,7 +84,7 @@ section:target {
 
 section h2 {
     margin-bottom: 10px;
-    color: #333;
+    color: #5a2e2f;
 }
 
 section p {
@@ -116,3 +117,18 @@ section p {
 .content section {
     animation: fadeIn 0.5s forwards; 
 }
+
+.card {
+    margin-bottom: 20px;
+  }
+  
+.card img {
+    height: 250px;
+    object-fit: cover;
+}
+  
+.price {
+    font-weight: bold;
+    color: #5a2e2f;
+}
+  
