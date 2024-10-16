@@ -19,7 +19,7 @@
           <li><a href="#products" aria-label="Manage Products">Buket</a></li>
           <li><a href="#orders" aria-label="Manage Orders">Pemesanan</a></li>
           <li><a href="#users" aria-label="Manage Users">Pengguna</a></li>
-          <li><a href="#settings" aria-label="Settings">Pengaturan</a></li>
+          <!-- <li><a href="#settings" aria-label="Settings">Pengaturan</a></li> -->
         </ul>
       </nav>
     </div>
@@ -101,17 +101,131 @@
 
       <section id="orders">
         <h2>Pesanan Masuk</h2>
-        <p>Here you can view and manage customer orders...</p>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>No. Pesanan</th>
+              <th>Nama Pengguna</th>
+              <th>Tanggal Pesanan</th>
+              <th>Status</th>
+              <th>Total</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#001</td>
+              <td>Siti</td>
+              <td>2024-10-10</td>
+              <td>Dikemas</td>
+              <td>Rp 450.000</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#002</td>
+              <td>Ahmad</td>
+              <td>2024-10-12</td>
+              <td>Dikirim</td>
+              <td>Rp 85.000</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#003</td>
+              <td>Lina</td>
+              <td>2024-10-14</td>
+              <td>Selesai</td>
+              <td>Rp 90.000</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#004</td>
+              <td>Budi</td>
+              <td>2024-10-15</td>
+              <td>Dikemas</td>
+              <td>Rp 120.000</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
 
       <section id="users">
         <h2>Pengguna</h2>
-        <p>Here you can manage users...</p>
-      </section>
+        <div class="user-stats">
+          <table class="table table-striped table-bordered table-hover">
+            <thead class="bg-primary text-white">
+              <tr>
+                <th>Total Pengguna Terdaftar</th>
+                <th>Jumlah Pengguna</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Jumlah Pengguna</td>
+                <td>15 Pengguna</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
 
-      <section id="settings">
-        <h2>Peraturan</h2>
-        <p>Here you can change website settings...</p>
+        <h3>Daftar Pengguna</h3>
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th>ID Pengguna</th>
+              <th>Nama</th>
+              <th>Email</th>
+              <th>Tanggal Bergabung</th>
+              <th>Aksi</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#001</td>
+              <td>Siti Aisyah</td>
+              <td>siti@example.com</td>
+              <td>2024-09-10</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#002</td>
+              <td>Ahmad Fadhil</td>
+              <td>ahmad@example.com</td>
+              <td>2024-09-12</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#003</td>
+              <td>Lina Maharani</td>
+              <td>lina@example.com</td>
+              <td>2024-09-14</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+            <tr>
+              <td>#004</td>
+              <td>Budi Santoso</td>
+              <td>budi@example.com</td>
+              <td>2024-09-15</td>
+              <td>
+                <a href="#" class="btn btn-info btn-sm">Lihat Detail</a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
       </section>
     </main>
   </body>
