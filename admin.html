@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="admin.css">
 </head>
 <body>
     <div class="sidebar">
-        <h2>Admin Panel</h2>
-        <ul>
-            <li><a href="#dashboard">Dashboard</a></li>
-            <li><a href="#products">Buket</a></li>
-            <li><a href="#orders">Pemesanan</a></li>
-            <li><a href="#users">Pengguna/a></li>
-            <li><a href="#settings">Pengaturan</a></li>
-        </ul>
+        <nav>
+            <h2>Admin Panel</h2>
+            <ul>
+                <li><a href="#dashboard" aria-label="Dashboard">Dashboard</a></li>
+                <li><a href="#products" aria-label="Manage Products">Buket</a></li>
+                <li><a href="#orders" aria-label="Manage Orders">Pemesanan</a></li>
+                <li><a href="#users" aria-label="Manage Users">Pengguna</a></li>
+                <li><a href="#settings" aria-label="Settings">Pengaturan</a></li>
+            </ul>
+        </nav>
     </div>
 
-    <div class="content">
+    <main class="content">
         <header>
             <h1>Welcome to Admin Dashboard</h1>
         </header>
@@ -47,6 +50,6 @@
             <h2>Settings</h2>
             <p>Here you can change website settings...</p>
         </section>
-    </div>
+    </main>
 </body>
 </html>
